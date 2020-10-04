@@ -1,0 +1,12 @@
+{
+  "name": "Socialmedia evaluation",
+  "version": "1.0",
+  "description": "For special surveys",
+  "permissions": ["activeTab"],
+  "content_scripts": [{
+    "matches": ["https://www.facebook.com/feedtools/frt/rating/*"],
+    "js": ["contentscript.js"]
+  }
+],
+  "manifest_version": 2
+}
