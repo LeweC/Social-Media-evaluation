@@ -117,6 +117,7 @@ newIn.addEventListener("keyup",(e) => {
     console.log(keyMapping[e.target.value])
     const descriptionInput = document.querySelector("textarea[placeholder='Enter detailed explanation here...']");
     descriptionInput.value = keyMapping[e.target.value]
+    descriptionInput.focus();
   }
 })
 
